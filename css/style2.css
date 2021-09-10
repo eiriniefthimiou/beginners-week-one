@@ -1,0 +1,36 @@
+body {
+    color: rgb(68, 112, 160);
+    font-family: arial;
+    margin: 0px;
+}
+div {
+    min-height: 70vh;
+    width: 100vw;
+}
+h1, h2{
+    text-align: center;
+}
+h1 {
+    font-size: 5,5em;
+}
+h2 {
+    font-size: 2,5em;
+}
+p {
+    text-align: center;
+    font-size: 1em;
+}   
+    li#lower{
+        margin-top:30px
+    }    
+
+    div.stevecontainer{
+        display:flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    div.jobs{
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+    }
