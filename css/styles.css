@@ -4,63 +4,69 @@ body {
     margin: 0px;
 }
 div {
-    min-height: 100vh;
+    min-height: 70vh;
     width: 100vw;
 }
 h1, h2{
     text-align: center;
 }
 h1 {
-    font-size: 5em;
+    font-size: 5,5em;
 }
 h2 {
     font-size: 2,5em;
 }
-img {
-    display: flex;
-    padding: 20px;
-    margin: 0 auto;
-    border-radius: 130px;
-}
 p {
-    width: 40%;
-    margin: 10vh 10vw;
-    font-size: 2em;
-}
-a {
-    color: rgb(0,0,0)
-}    
-ol{
-    list-style: none;
-    padding: 0;
-    margin-bottom: 10%;
-    font-size: 3em;
-    display: flex;
-    justify-content: space-evenly;
-}
-li#lower {
-    margin-top: 7%;
-}
-li#lowest {
-    margin-bottom: 14%;
-}
-div.contrast {
-    background-color: rgb(0,0,0);
-    color: rgb(255,255,255);
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    font-size: 2,5em;
+}   
+div.computercontainer{
+    display:flex;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
-ul {
-    list-style: none;
-    display: flex;
+div.computer2{
+    justify-content: center;
+    align-self: center;
+    text-align: center;
 }
-li {
-    margin: 0 20px;
-    transition: 0.6 ease;
+div.mousecontainer{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
 }
-li:hover {
-    font-size: 1.2em;
-    transition: 0.6s ease;
+div.mouse{
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+div.iphonecontainer{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+}
+div.iphone{
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+div.ipadcontainer{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+}
+div.ipad{
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+div.headphonescontainer{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+}
+div.headphones{
+    justify-content: center;
+    align-self: center;
+    text-align: center;
 }
