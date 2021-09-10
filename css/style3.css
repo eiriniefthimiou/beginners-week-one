@@ -4,8 +4,8 @@ body {
     margin: 0px;
 }
 div {
-    min-height: 70vh;
-    width: 100vw;
+    width: 50%;
+    margin: auto;
 }
 h1, h2{
     text-align: center;
