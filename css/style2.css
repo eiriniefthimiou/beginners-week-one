@@ -34,3 +34,23 @@ p {
         align-self: center;
         text-align: center;
     }
+    div.wozniakcontainer{
+        display:flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    div.wozniak{
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+    }
+    div.RonaldGeraldWaynecontainer{
+        display:flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    div.RonaldGeraldWayne{
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+    }
